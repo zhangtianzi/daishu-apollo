@@ -76,4 +76,3 @@ The Apollo runtime in the vehicle requires the NVIDIA GPU Driver. You must insta
     bash scripts/bootstrap.sh
     ```
 - Use your host machine browser to access Dreamview web service in with URL http://localhost:8888.
-- 
