@@ -114,7 +114,7 @@ void CanClientFactory::RegisterCanClients() {
 ```
 
 ### Update the config File
-Add the EXAMPLE_CAN into `/modules/canbus/proto/can_card_parameter.proto`
+Add the EXAMPLE_CAN into `/modules/drivers/canbus/proto/can_card_parameter.proto`
 
 ```proto
 message CANCardParameter {
