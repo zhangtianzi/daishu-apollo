@@ -43,9 +43,6 @@ void CanClientFactory::RegisterCanClients() {
 #endif
   Register(CANCardParameter::SOCKET_CAN_RAW,
            []() -> CanClient* { return new can::SocketCanClientRaw(); });
-//Register the New CAN Card 
-  Register(CANCardParameter::INNODISK_CAN,
-           []() -> CanClient* { return new can:InnodiskCanClient(); });
 }
 
 std::unique_ptr<CanClient> CanClientFactory::CreateCANClient(
